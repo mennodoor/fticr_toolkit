@@ -1,0 +1,3 @@
+FHDS is the measurement data format we use at Pentatrap, and it was developed by A. Rischka.
+
+Its organizes the measurement data using just the filesystem, adds meta-data in additional files and combines everything in a user friendly interface. Its just here for completeness, since its needed for some imports.
