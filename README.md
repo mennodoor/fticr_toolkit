@@ -1,6 +1,6 @@
 # FT-ICR Toolkit
 
-Summary of Tools needed for FT-ICR data analysis.
+Summary of tools needed for FT-ICR data analysis and calculation of systematic shifts.
 
 ## Installation
 
@@ -31,10 +31,6 @@ jupyter nbextension enable --py qgrid
 jupyter nbextension install --py plotlywidget
 jupyter nbextension enable --py plotlywidget
 ```
-
-## Usage
-
-Check out the example data and use the analysis jupyter notebook part 1 to 3 on it. The notebooks as well as the code base should be more or less well commented, so if you are not sure what happens at a specific step, just read a few of the comments around it or go into the fticr_toolkit modules and check out the source of the features.
 
 **Overview**:
 - **PART1** : converts the raw data of the measurement (spectra, phase spectra, time domain data?) and converts it to usable phase and frequency information for the next part of the analysis. This part takes a while since its doing averages of numpy arrays, fits and fft conversions on bigger datasets.
